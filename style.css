@@ -10,12 +10,12 @@ color: #333;
 .outer
 {
 background: #FFF;
-padding:5px;
 margin-right:auto; margin-left:auto;
-margin-top: 11%;
+margin-top: 14%;
 }
 
 .main {
+padding: 24px 12px;
 }
 
 .pic {
