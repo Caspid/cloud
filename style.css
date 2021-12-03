@@ -1,20 +1,47 @@
 body {
-font: 30px "Noto Sans", sans-serif; 
+font-family: "Noto Sans", sans-serif; 
+font-size: 30px;
 background: #CCC url("bg.jpg") fixed;
+background-size: cover;
+color: #333;
 /* background: #E0E0E0 url("/web/20130823021207im_/http://flipsmack.com/social/mpf.jpg") fixed center top; */
 }
 
-.preload {
-width: 0px;
-height: 0px;
-overflow: hidden;
-display: none;
-margin-left: -1000px;
+.outer
+{
+background: #FFF;
+margin-right:auto; margin-left:auto;
+margin-top: 14%;
+}
+
+.main {
+padding: 24px 12px;
+}
+
+.pic {
+padding: 0 4px 0 1em;
+}
+
+img {
+vertical-align: middle;
+}
+
+table {
+font-size: 30px !important;
 }
 
 
-/* stupid ie9 */
-img {border:none;}
+
+
+
+.ch {
+position: absolute;
+bottom: 2em; 
+right: 2em;
+z-index: -1;
+}
+
+
 
 .outer
 {
@@ -22,43 +49,19 @@ background: #FFF;
 padding:8px;
 margin-right:auto; margin-left:auto;
 
-border-radius: 5px;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
+border-radius: 4px;
 
-box-shadow: 2px 3px 10px #333;
--webkit-box-shadow: 2px 3px 10px #333;
--moz-box-shadow: 2px 3px 10px #333;
-
-<!--[if IE]>
-<style type="text/css">
-.ie-shadow {
-    display: block;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 102px; /* match target width */
-    height: 102px; /* match target height */
-    z-index: 1;
-    background: #000;
-    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='15', MakeShadow='true', ShadowOpacity='0.40');
-}
-</style>
-<![endif]-->
-
-}
-/* end stupid IE stuff */
-
-.main
-{
-/* border:7px double #E5E5E5; */
-padding: 10px 8px;
-}
+box-shadow: 2px 4px 6px #333;
 
 a:link, a:active, a:visited { 
 color: #36c; 
 text-decoration: none;
 outline:none;
+}
+
+
+.main {
+padding: 12px 8px;
 }
 
 /*
